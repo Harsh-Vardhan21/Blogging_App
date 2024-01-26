@@ -13,24 +13,24 @@ function Header() {
                 B_4_Blogging
             </span>
         </Link>
-        <form>
+        <form > 
             <TextInput
                 type='text'
                 placeholder='Search'
                 rightIcon={AiOutlineSearch}
-                className='hidden lg:inline'
-
+                className='hidden lg:inline '
+                
             />
         </form>
         <Button className='w-12 h-18' color='gray' pill>
             <AiOutlineSearch/>
         </Button>
         <div className='flex gap-2 md:order-2'>
-            <Button className='w-12 h-10 hidden sm:inline' color='gray' pill> 
+            <Button className='w-12 h-10 hidden sm:inline' outline color='gray' pill> 
                 <FaMoon/>
             </Button>
             <Link to='/sign-in'>
-                <Button gradientDuoTone='purpleToBlue' >
+                <Button gradientDuoTone='purpleToBlue' outline >
                     Sign In
                 </Button>
             </Link>
